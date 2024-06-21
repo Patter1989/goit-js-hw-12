@@ -31,12 +31,8 @@ export function imagesTemplate(arr) {
   return arr.map(imageTemplate).join('');
 }
 
-const loader = document.querySelector('.loader');
 
-export function showLoader() {
-  loader.classList.remove('visually-hidden');
-}
 
-export function closeLoader() {
-  loader.classList.add('visually-hidden');
-}
+
+
+
