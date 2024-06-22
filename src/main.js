@@ -79,7 +79,7 @@ async function formElemSubmit(e) {
     lightBox.refresh();
     showLoadMoreBtn();
   } catch {
-    console.log('Error!');
+    iziToast.show('Error!');
   }
   hideLoader();
   updateBtnStatus();
